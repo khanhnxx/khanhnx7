@@ -1,0 +1,231 @@
+! ================= EASYLIST-STYLE CUSTOM FILTER LIST =================
+! Tối ưu hoá theo chuẩn EasyList: nhóm gọn, xoá trùng lặp, chuẩn hóa cú pháp.
+! --------------------------------------------------------------------
+
+
+! ================= ADULTDEEPFAKES =================
+adultdeepfakes.com##.inter__body
+
+
+! ================= CANVA =================
+www.canva.com##.iBrz7Q._2vR8_A.W3jCOQ._2Z172g._9Mb__A.Ekl2FA.RNFNIA
+
+
+! ================= DATAQQ =================
+||dataqq.net/v/*.mp4$media
+
+
+
+! ================= FACEBOOK =================
+www.facebook.com###jsc_c_be > span > .j83agx80.bp9cbjyn
+www.facebook.com##.xquyuld.x10wlt62.x6ikm8r.xh8yej3.xt3gfkd.xu5ydu1.xdney7k.x1qpq9i9.x2bj2ny.x1ja2u2z.x1n2onr6.x9f619 > div > div > .xh8yej3
+
+
+! ================= FCPORTABLES =================
+www.fcportables.com##.popup715967wrap
+
+
+! ================= FINALLYGOTTHEXDS =================
+||finallygotthexds.site^*gif
+
+
+! ================= GODOWNLOADER =================
+godownloader.com###item > .alert-warning.alert.mt-4
+godownloader.com###item > .justify-center.flex.my-4 > .py-2.px-4.bg-base-200.rounded.items-center.flex
+godownloader.com##.sm\:h-\[280px\].h-\[325px\].w-full.bg-base-200.my-4.relative.block
+godownloader.com##.h-6.mb-4.text-center > .link
+
+
+! ================= GOOGLE DOCS =================
+docs.google.com##.fb0g6.oJeWuf.PbnGhe
+docs.google.com###dwrFZd0
+docs.google.com##.J9fJmf.XfpsVe
+docs.google.com##.qRUolc.tOrNgd.R6Lfte
+docs.google.com##.eEPege.mjANdc
+docs.google.com##.M9Bg4d.TFBnVe.HvOprf.kHssdc.C0oVfc.HQ8yf.oG5Srb.O0WRkf.U26fgb > .CeoRYc.ZFr60d
+
+
+! ================= HHFULL4K =================
+hhfull4k.com##.z-50.right-5.bottom-24.fixed > .w-20
+hhfull4k.com##.z-50.right-5.bottom-5.fixed
+
+##div.absolute.top-4.right-4.opacity-40
+
+
+! ================= HHKUNGFU =================
+hhkungfu.online###main-contents > div
+hhkungfu.online###main-contents > .section-heading
+
+! ================= HOATHINH3D =================
+||hoathinh3d.*/wp-content/uploads/*/playerlogobiz.png$image
+hoathinh3d.*##.wpdiscuz-bell-shortcode-menu
+hoathinh3d.*##.li
+hoathinh3d.*##.jw-reset.jw-logo-top-left.jw-logo
+
+! Test cho hoathih4k
+! ================= HOATHINH4K FIXED =================
+hoathinh4k.top##[id="catfish"]
+hoathinh4k.top##.ads-nlp [href] > [src]
+hoathinh4k.top##.popUpBannerBox
+hoathinh4k.top##.closecf
+hoathinh4k.top##.ads-nlp-banner
+hoathinh4k.top##.catfish-container
+hoathinh4k.top###popup-giua-man-hinh
+
+! Chặn tất cả các trang có tên chứa hoathinh4k và đuôi .top
+##.ads-nlp:matches-path(hoathinh4k)
+##.popUpBannerBox:matches-path(hoathinh4k)
+##.closecf:matches-path(hoathinh4k)
+##.ads-nlp-banner:matches-path(hoathinh4k)
+##.catfish-container:matches-path(hoathinh4k)
+##[id="catfish"]:matches-path(hoathinh4k)
+##[id="popup-giua-man-hinh"]:matches-path(hoathinh4k)
+
+! Cách dự phòng 2: Chặn theo thuộc tính src (mạnh hơn)
+##[id*="catfish"]
+##[class*="ads-nlp"]
+##[id*="popup-giua-man-hinh"]
+! Tới đây mới hết test của hoathinh4k
+
+! ================= HTCover =================
+||stream.htcover.life/embed/*$subdocument
+xemphimsex1.com##[href="javascript:hideCatfish();"]
+xemphimsex1.com##.banner-bot-pc
+
+
+! ================= KHAWATR =================
+www.khawatr.com##.floating-ads-container
+
+
+! ================= MEPHIM =================
+mephim.org##.popUpBannerBox
+mephim.us##.center
+||mephimvip/*$subdocument
+||mephimtv.top/*$image
+
+
+! ================= MOBIBLOGTV =================
+mobiblogtv.cfd###preload
+mobiblogtv.cfd##.catfish-container
+mobiblogtv.live##.popup-content
+mobiblogtv.live##.close-button
+
+
+! ================= NIMO TV =================
+www.nimo.tv##.n-as-rel.nimo-room-ads
+www.nimo.tv##.n-as-of-hidden.n-as-rel.c3.nimo-room-gift-rank.n-as-fs12
+www.nimo.tv##.float-navigator-container
+||www.nimo.tv/fragments/act/*$subdocument
+www.nimo.tv##.n-as-rel.n-as-bd0.RevenuePanel.nimo-iframe
+
+
+! ================= PIKPAK =================
+mypikpak.com##div.el-overlay:nth-of-type(12)
+
+
+! ================= ROPHIM =================
+www.rophim.*##.app-box-fix
+||rophim.*^$popup
+rophim.*##+js(nano-stb, *, *, 2000)
+rophim.*##+js(aopr, open)
+rophim.*##+js(aopr, window.open)
+rophim.*##+js(window.open-defuser)
+rophim.*##+js(noeval)
+rophim.*##.adsbox
+rophim.*##.ad-container
+rophim.*##.ad-banner
+rophim.*##.popup
+rophim.*##.modal
+rophim.*##.banner
+rophim.*##.overlay
+rophim.*##.adsbygoogle
+rophim.*##a[href*="ads"]
+rophim.*##a[href*="quangcao"]
+rophim.*##div[id^="ads"]
+rophim.*##div[class*="ads"]
+rophim.*##div[class*="banner"]
+rophim.*##.download, .btn-download, .btn-watch, .watch-hd
+rophim.*##a[href*="facebook.com/share"]
+rophim.*##iframe[src*="quangcao"]
+rophim.*##iframe[src*="banner"]
+! 2 thg 1, 2026 https://www.rophim.li
+www.rophim.*##div.menu-item:nth-of-type(7)
+
+! ================= RPHANG =================
+rphang.*##.samVideoOverlay
+
+
+! ================= SHOPEE =================
+||shopee.vn^
+||shopee.vn^$all
+
+
+! ================= SOFT3ARBI =================
+soft3arbi.com###popup
+soft3arbi.com###lm-slideup
+forx.mazen-ve3.com###lm-slideup > div > div
+forx.mazen-ve3.com###popup
+hasri.xyz###popup
+forex.hasri.xyz###lm-slideup
+
+
+! ================= STARZD =================
+||ads.starzd.com/*.gif$image
+
+
+! ================= VIEON =================
+||static2.vieon.vn/vieon-images/conversion/payment/newpay/quality_20220106.png$image
+
+
+! ================= WEB1S =================
+web1s.asia###pskfjhsjkdfhskfjhsjkdfhuptsuptxrysqmmtupntmmpskfjhsjkdfhskfjhsjkdfhuptsuptxrysq
+
+
+! ================= XEMPHIMHDC =================
+xemphimhdc.com##[href="javascript:hide_catfish();"]
+||xemphimhdc.com/storage/images/*.png
+
+
+! ================= YOUTUBE =================
+! ẩn gợi ý cuối video
+youtube.com##.ytp-ce-element
+
+
+! ẩn short video
+!youtube.com##ytd-rich-shelf-renderer:has(a[href*="/shorts/"])
+!youtube.com##ytd-rich-item-renderer:has(a[href*="/shorts/"])
+!youtube.com##ytd-grid-video-renderer:has(a[href*="/shorts/"])
+!youtube.com##ytd-video-renderer:has(a[href*="/shorts/"])
+
+
+
+! 2 thg 1, 2026 https://www.tiktok.com
+www.tiktok.com##.justify-center.items-center.flex.w-full
+
+! 16 thg 1, 2026 https://sv2.tamquoc.live
+||sv2.tamquoc.live/*$image
+
+! 17 thg 1, 2026 https://robong.cc
+robong.cc##.show.modal-backdrop.fade
+
+! 20 thg 1, 2026 https://www.reddit.com
+www.reddit.com##.nd\:visible > faceplate-expandable-section-helper > .rounded-none.border-none.bg-transparent.m-0.p-0
+
+! 20 thg 1, 2026 https://embedrb.com
+embedrb.com###vs > div
+
+! 20 thg 1, 2026 https://vr.90phut30.org
+vr.90phut30.org##.modal-backdropz
+vr.90phut30.org##.ft-box.for-desktop._qrTXb8-fixbot._qrTXb8 > div
+vr.vebo7.bar##.modal-backdropz
+vr.vebo7.bar##.ft-box.for-desktop._qrTXb8-fixbot._qrTXb8 > div
+
+! 20 thg 1, 2026 https://k.vebo7.bar
+k.vebo7.bar##.modal-backdropz
+k.vebo7.bar##.ft-box.for-desktop
+k.vebo7.bar##.box-host.box
+k.vebo7.bar##.vebo-sp.container
+k.vebo7.bar##.for-desktop._pYK8D0-top._pYK8D0 > .size-1330x130._pYK8D0-inner
+k.vebo7.bar##.for-desktop._pYK8D0-top._pYK8D0 > div
+k.vebo7.bar##.mc_bottomz
+
